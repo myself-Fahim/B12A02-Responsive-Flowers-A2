@@ -331,27 +331,31 @@ ul li {
 }
 
 /* footer started */
-footer{
+.footer-- {
     display: flex;
     justify-content: center;
     gap: 120px;
     align-items: start;
 }
-.f-1 img{
+
+.f-1 img {
     margin-bottom: 16px;
 }
-.f-1 p{
-color: rgba(0, 0, 0, 0.50);
-font-family: Inter;
-font-size: 1.3rem;
-font-weight: 400;
+
+.f-1 p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
-.icon{
+
+.icon {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-footer ul li{
+
+.footer-- ul li {
     margin-bottom: 26px;
 }
 
@@ -558,17 +562,16 @@ footer ul li{
     }
 
 }
+
 @media screen and (max-width:576px) {
-    footer{
+    footer {
         margin-left: 20px;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    .f-1 p{
+
+    .f-1 p {
         margin-bottom: 20px;
     }
-
-    
-    
 }

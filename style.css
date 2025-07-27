@@ -250,18 +250,18 @@ ul li {
 }
 
 /* Grid section started */
-.collage{
+.collage {
     display: grid;
     gap: 25px;
     justify-content: center;
-    grid-template-areas: 
-    "col1 col3 col3"
-    "col2 col3 col3";
+    grid-template-areas:
+        "col1 col3 col3"
+        "col2 col3 col3";
     margin: 146px 146px;
-    
+
 }
 
-.col1{
+.col1 {
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,58 +270,90 @@ ul li {
     color: white;
     grid-area: col1;
     width: 25rem;
-    
-    }
+
+}
 
 
-.col1 h4{
+.col1 h4 {
     text-decoration: underline;
     text-align: center;
 }
-.col1 h3{
+
+.col1 h3 {
     text-align: center;
 }
-.col2{
+
+.col2 {
     /* background-color: aquamarine; */
     background-image: url(./assets/deal-ana.png);
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     padding: 38px;
     color: white;
     grid-area: col2;
     width: 25rem;
 }
-.col2 h4{
+
+.col2 h4 {
     text-decoration: underline;
     text-align: center;
 }
-.col2 h3{
+
+.col2 h3 {
     text-align: center;
 }
-.col3{
+
+.col3 {
     /* background-color: yellow;
      */
-     background-image: url(./assets/deal-zabo.png);
-     /* width: 50%; */
-     background-repeat: no-repeat;
-     background-size: cover;
-     border-radius: 10px;
-     padding: 100px 0;
-     color: white;
-     grid-area: col3;
-     height: 15rem;
-    width:45rem ;
-    }
-    .col3 h3{
-        font-size: 2.5rem;
-        text-align: center;
-    }
-    .col3 h4{
-        text-decoration: underline;
-        font-size: 1.75rem;
-        text-align: center;
-    }
+    background-image: url(./assets/deal-zabo.png);
+    /* width: 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+    color: white;
+    grid-area: col3;
+    height: 15rem;
+    width: 45rem;
+}
+
+.col3 h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col3 h4 {
+    text-decoration: underline;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+/* footer started */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: start;
+}
+.f-1 img{
+    margin-bottom: 16px;
+}
+.f-1 p{
+color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 1.3rem;
+font-weight: 400;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+footer ul li{
+    margin-bottom: 26px;
+}
 
 
 
@@ -456,67 +488,87 @@ ul li {
 
 }
 
- /* deal responsive */
- @media screen and (max-width:576px) {
-   .deal-section h1 {
-    text-align: center;
-    font-size: 1.5rem;
-}
+/* deal responsive */
+@media screen and (max-width:576px) {
+    .deal-section h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
-.deal-section p {
-    text-align: center;
-    font-family: Inter;
-    font-size: 0.8rem;
-    padding: 0px 30px;
-}
+    .deal-section p {
+        text-align: center;
+        font-family: Inter;
+        font-size: 0.8rem;
+        padding: 0px 30px;
+    }
 
- }
+}
 
 /* Grid layout responsive */
 
 @media screen and (max-width:576px) {
-   .collage{
+    .collage {
 
-        grid-template-areas: 
-        "col1"
-        "col2"
-        "col3";
+        grid-template-areas:
+            "col1"
+            "col2"
+            "col3";
     }
 
-        .col3{
-           margin: auto;
-           width: 20rem;
-           height: 0.1rem;
-        }
-        .col3 h3{
-            font-size: 1.2rem;
-        }
-        .col3 h4{
-            font-size: 1rem;
-        }
+    .col3 {
+        margin: auto;
+        width: 20rem;
+        height: 0.1rem;
+    }
 
-        .col1{
-             margin: auto;
-           width: 15rem;
-           height: 6rem;
-        }
-        .col1 h3{
-            font-size: 1.2rem;
-        }
-        .col1 h4{
-            font-size: 1rem;
-        }
+    .col3 h3 {
+        font-size: 1.2rem;
+    }
 
-         .col2{
-           margin: auto;
-           width: 15rem;
-           height: 6rem;
-        }
-        .col2 h3{
-            font-size: 1.2rem;
-        }
-        .col2 h4{
-            font-size: 1rem;
-        }
+    .col3 h4 {
+        font-size: 1rem;
+    }
 
+    .col1 {
+        margin: auto;
+        width: 15rem;
+        height: 6rem;
+    }
+
+    .col1 h3 {
+        font-size: 1.2rem;
+    }
+
+    .col1 h4 {
+        font-size: 1rem;
+    }
+
+    .col2 {
+        margin: auto;
+        width: 15rem;
+        height: 6rem;
+    }
+
+    .col2 h3 {
+        font-size: 1.2rem;
+    }
+
+    .col2 h4 {
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:576px) {
+    footer{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .f-1 p{
+        margin-bottom: 20px;
+    }
+
+    
+    
 }

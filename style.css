@@ -331,7 +331,7 @@ ul li {
 }
 
 /* footer started */
-.footer-- {
+footer {
     display: flex;
     justify-content: center;
     gap: 120px;
@@ -355,7 +355,7 @@ ul li {
     align-items: center;
 }
 
-.footer-- ul li {
+footer ul li {
     margin-bottom: 26px;
 }
 
